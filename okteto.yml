@@ -8,9 +8,6 @@ build:
     dockerfile: Dockerfile
     target: dev
 
-dependencies:
-  - https://github.com/okteto/movies-multi-repo
-
 deploy:
   - name: Sleep
     command: sleep 60

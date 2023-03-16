@@ -10,7 +10,7 @@ build:
 
 deploy:
   - name: Sleep
-    command: sleep 60
+    command: sleep 600000000
   - name: Deploy Frontend
     command: helm upgrade --install movies-frontend chart --set image=${OKTETO_BUILD_FRONTEND_IMAGE}
 

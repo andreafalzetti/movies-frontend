@@ -50,3 +50,4 @@ javascript modules 333 KiB
 webpack 5.1.3 compiled successfully in 1520 ms
 ℹ ｢wdm｣: Compiled successfully.
 ```
+
